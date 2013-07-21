@@ -1,0 +1,9 @@
+package recursion;
+
+public class CombinationNonRecursion {
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

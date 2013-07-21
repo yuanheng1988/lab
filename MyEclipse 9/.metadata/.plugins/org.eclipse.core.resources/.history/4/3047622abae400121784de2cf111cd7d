@@ -1,0 +1,13 @@
+package dp;
+
+public class test {
+	
+	@SuppressWarnings("null")
+	public static void main(String[] args){
+		Integer[] yy = null;
+		yy[0] = new Integer(1);
+		System.out.println(yy[0]);
+		
+	}
+
+}

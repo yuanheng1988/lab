@@ -1,0 +1,21 @@
+'''
+Created on 2012-12-10
+
+@author: xukexin
+'''
+import os
+
+f = file('shoplist.data')
+while True:
+    line = f.readline()
+    if len(line) == 0:
+        break
+    print line,
+f.close()
+
+print '\n' + os.getcwd()
+print os.listdir("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test")
+print os.name
+print 'first' + os.linesep + 'second'
+print os.path.isfile("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test\\test3.py")
+print os.path.split("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test\\test3.py")[1]

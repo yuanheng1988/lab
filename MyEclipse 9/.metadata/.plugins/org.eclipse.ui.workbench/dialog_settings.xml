@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\Download\Jersey.Sample.Contact.Src"/>
+			<item value="D:\Program Files\Weka-3-6\weka-src\src\main\java\weka"/>
+			<item value="D:\Program Files\Weka-3-6\weka-src\src"/>
+			<item value="D:\Program Files\Weka-3-6\weka-src"/>
+			<item value="E:\研一资料\研一上\现代信息检索\project\IR项目\IR_中文文本倾向性分析_submission\IR_submission\src"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="265" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.python.pydev.ui.wizards.files.PythonSourceFolderWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\Download\Jersey.Sample.Contact.Src.zip"/>
+			<item value="D:\google-gson-2.2.3-release\google-gson-2.2.3\gson-2.2.3.jar"/>
+			<item value="D:\Program Files\Weka-3-6\weka-src.jar"/>
+			<item value="C:\Program Files\MySQL\MySQL Connector J\mysql-connector-java-5.1.20-bin.jar"/>
+			<item value="C:\Users\xukexin\Desktop\ckeditor.jar"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="345" key="DIALOG_WIDTH"/>
+		<item value="org.eclipse.debug.ui.MemoryView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="138" key="DIALOG_Y_ORIGIN"/>
+		<item value="636" key="DIALOG_X_ORIGIN"/>
+		<item value="451" key="DIALOG_HEIGHT"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.debug.ui"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="com.genuitec.eclipse.export.wizard.WARExportWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="com.genuitec.myeclipse"/>
+			<item value="org.eclipse.jst.ws.consumption.ui.wsimport.category"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jst.j2ee.internal"/>
+		</list>
+	</section>
+</section>

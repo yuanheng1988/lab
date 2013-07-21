@@ -1,0 +1,11 @@
+package dp;
+
+import java.util.Scanner;
+
+public class jury {
+
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		
+	}
+}

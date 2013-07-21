@@ -1,0 +1,19 @@
+package recursion;
+
+public class FullPermutation {
+	static String tmpStr = null;
+	
+	public static void main(){
+		
+	}
+	
+	public static void permutation(char[] orig,int start){
+		
+		for(int i = start; i < orig.length; i++){
+			char tmp = orig[start];
+			orig[start] = orig[i];
+			orig[i] = tmp;
+		}
+	}
+
+}

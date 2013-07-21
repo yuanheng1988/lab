@@ -1,0 +1,21 @@
+
+
+public class ArrayDeclare {
+	
+	@SuppressWarnings("null")
+	public static void main(String[] args){
+		Integer[] yy = new Integer[1];
+		yy[0] = 2;
+//		yy[1] = new Integer(3);
+		System.out.println(yy[0]);
+		
+		int[] tt = new int[1];
+		tt[0] = 11;
+		System.out.println(tt[0]);
+		
+		int[] pp = new int[100];
+		System.out.println(pp.length);
+		
+	}
+
+}

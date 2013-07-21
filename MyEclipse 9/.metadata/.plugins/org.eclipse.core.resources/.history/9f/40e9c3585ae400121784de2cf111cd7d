@@ -1,0 +1,21 @@
+package dp;
+
+import java.util.Scanner;
+
+public class triangle {
+	static int MAX_NUM = 100;
+	static int[][] value = new int[MAX_NUM + 10][MAX_NUM + 10];
+	static int[][] aMaxSum = new int[MAX_NUM + 10][MAX_NUM + 10];
+	static int[][] previous = new int[MAX_NUM + 10][MAX_NUM + 10];
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int rowNum = scanner.nextInt();
+		for(int i = 0; i < rowNum; i++){
+			for(int j = 0; j <= i; j++){
+				value[i][j] = scanner.nextInt();
+			}
+		}
+	}
+}
+   

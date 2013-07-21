@@ -1,0 +1,143 @@
+-- VERSION_3
+-- START DISKCACHE
+D:\Users\xukexin\Workspaces\MyEclipse 9\.metadata\.plugins\org.eclipse.core.resources\.projects\DataPreprocessing\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+test.addressbook|0|D:\Users\xukexin\Workspaces\MyEclipse 9\DataPreprocessing\test\addressbook.py
+test.datastructure|0|D:\Users\xukexin\Workspaces\MyEclipse 9\DataPreprocessing\test\datastructure.py
+test.binary_tree|0|D:\Users\xukexin\Workspaces\MyEclipse 9\DataPreprocessing\test\binary_tree.py
+cal1|0|D:\Users\xukexin\Workspaces\MyEclipse 9\DataPreprocessing\cals\cal1.py
+-- END DISKCACHE
+-- START DICTIONARY
+33
+10=test.using_file
+24=Teacher
+3=test.addressbook
+7=extration.test
+27=SchoolMember.__init__
+2=test.datastructure
+15=test.inherit
+18=test.raising
+5=test.objvar
+20=ShortInputException
+33=Teacher.__init__
+21=Tree
+4=test.binary_tree
+29=Tree.insert
+13=test.test1
+17=test.try_except
+12=test.test2
+8=test.test4
+26=Person.__init__
+28=ShortInputException.__init__
+6=test.backup_ver3
+16=test.cat
+30=Tree.__init__
+31=Node.__init__
+14=test.more_python
+32=Student.__init__
+23=Student
+25=SchoolMember
+11=test.finally
+9=test.pickling
+22=Node
+1=cal1
+19=Person
+-- END DICTIONARY
+-- START TREE 1
+67
+a|1|a!11@
+ab|1|ab!19@
+aba|1|abAdd!26@
+abd|1|abdict!27@
+abl|1|abList!26@
+abm|1|abModify!26@
+abq|1|abQuit!26@
+abr|1|abRemove!26@
+abs|2|abStart!26@abSearch!26@
+abu|1|abUsage!26@
+aft|1|afterOrder!34@
+ali|1|alice!43@
+b|1|b!11@
+c|1|c!11@
+com|1|comment!51@
+con|1|conn!59@
+cou|2|count1!11@count!11@
+cur|1|cur!59@
+d|1|d!67@
+f|5|f!75@f!83@f!27@f!91@f!67@
+fil|1|filename!27@
+get|1|getDepth!34@
+gue|1|guess!99@
+i|1|i!107@
+ind|1|index!11@
+l|1|l!67@
+l2|1|l2!67@
+lin|4|line!75@line!83@line!91@line!67@
+lis|4|list!67@listthree!115@listone!115@listtwo!115@
+mak|1|make_repeater!114@
+mar|2|mark!11@marry!43@
+mem|1|members!123@
+mid|1|midOrder!34@
+myl|3|mylist1!19@mylist2!19@mylist!115@
+mys|1|myString!19@
+new|1|new_zoo!19@
+nod|1|Node!33@
+now|1|now!51@
+num|1|number!99@
+old|1|olditem!19@
+peo|1|peom!83@
+per|2|Person!25@Person!41@
+pow|1|powersum!114@
+pre|1|preOrder!34@
+r|1|r!59@
+rea|1|readfile!130@
+run|1|running!99@
+s|4|s!107@s!123@s!139@s!99@
+say|1|sayhello!98@
+sch|1|SchoolMember!121@
+sho|4|shoplistfile!75@shoplist!19@ShortInputException!145@shoplist!75@
+sou|1|source!51@
+sql|1|sql!59@
+sto|1|storedfile!75@
+str|1|string2!67@
+stu|1|Student!121@
+t|2|t!67@t!123@
+tar|2|target_dir!51@target!51@
+tea|1|Teacher!121@
+the|1|theString!67@
+tod|1|today!51@
+tre|2|tree!35@Tree!33@
+twi|1|twice!115@
+wid|1|wideOrder!34@
+x|1|x!67@
+zip|1|zip_command!51@
+zoo|1|zoo!19@
+-- END TREE
+-- START TREE 2
+25
+__d|1|__del__!19&42@
+__i|8|__init__!19&26@__init__!20&146@__init__!21&34@__init__!22&34@__init__!23&122@__init__!24&122@__init__!25&122@__init__!19&42@
+add|1|address!26&27@
+age|1|age!27&123@
+atl|1|atleast!28&147@
+dep|2|depth!29&35@depth!30&35@
+ema|1|email!26&27@
+fin|1|find!21&34@
+how|1|howMany!19&42@
+ins|1|insert!21&34@
+lef|1|left!31&35@
+len|1|length!28&147@
+mar|1|mark!32&123@
+nam|3|name!26&43@name!26&27@name!27&123@
+par|1|parent!31&35@
+pho|1|phone!26&27@
+pop|1|population!19&43@
+rig|1|right!31&35@
+roo|2|root!29&35@root!30&35@
+s|1|s!20&147@
+sal|1|salary!33&123@
+say|1|sayHi!19&42@
+siz|2|size!29&35@size!30&35@
+tel|3|tell!25&122@tell!24&122@tell!23&122@
+val|1|value!31&35@
+-- END TREE

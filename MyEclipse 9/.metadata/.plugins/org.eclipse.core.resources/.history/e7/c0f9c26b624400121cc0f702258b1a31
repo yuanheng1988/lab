@@ -1,0 +1,45 @@
+'''
+Created on 2012-12-10
+
+@author: xukexin
+'''
+import os
+
+f = file('shoplist.data')
+while True:
+    line = f.readline()
+    if len(line) == 0:
+        break
+    print line,
+f.close()
+
+print '\n' + os.getcwd()
+print os.listdir("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test")
+print os.name
+print 'first' + os.linesep + 'second'
+print os.path.isfile("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test\\test3.py")
+print os.path.split("D:\\Users\\xukexin\\Workspaces\\MyEclipse 9\\DataPreprocessing\\test\\test3.py")[1]
+
+t = 2
+for i in range(1,5):
+    if i == 3:
+        if t == 2:
+            print 'in ifif'
+            break
+        print 'in if'
+    print 'in for'
+print 'out of for loop'
+
+d = {'age':12,'name':'bob'}
+x = d
+d.clear()
+print x
+
+l = []
+l.append('hehe')
+l.append('haha')
+print l
+
+l2 = list()
+l2.append('enen')
+l2.append('okok')

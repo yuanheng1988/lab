@@ -1,0 +1,34 @@
+#coding=utf-8
+'''
+Created on 2012-12-11
+
+@author: xukexin
+'''
+import cPickle as p
+abdict = {}
+
+class Person():
+    def __init__(self,name,phone,email,address):
+        self.name = name
+        self.phone = phone
+        self.email = email
+        self.address = address
+
+def abAdd():
+    while True:
+        name = raw_input('Enter a name for Adding:')
+        if name == 'Q':
+            break
+        if abdict.has_key(name):
+            print '%s has already been in the address book.' % name
+        else:
+            phone = raw_input('Phone:')
+            email = raw_input('Email:')
+            address = raw_input('Address:')
+            person = Person(name,phone,email,address)
+            abdict[name] = person
+            print '%s added, total: %d.' % (name,len(abdict))
+            
+def abRemove():
+    
+            

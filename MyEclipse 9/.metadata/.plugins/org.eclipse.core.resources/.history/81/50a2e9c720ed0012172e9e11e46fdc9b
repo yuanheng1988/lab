@@ -1,0 +1,73 @@
+package dp;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+//0/1 knapsack
+/**
+ * @author xukexin
+ *
+ *
+测试数据：
+10	34
+2	15 
+7	25 
+3	8  
+4	9  
+8	15 
+5	9  
+8	13 
+6	9 
+4	6 
+16	14 
+87
+ */
+public class KnapsackDP {
+	static final int MAX_NUM = 3402;
+	static final int MAX_WEIGHT = 14000;
+	static int[] weight = new int[MAX_NUM + 10];
+	static int[] value = new int[MAX_NUM + 10];
+	static int[][] aMaxValue = new int[MAX_NUM + 10][MAX_WEIGHT];
+	static int[][] path = new int[MAX_NUM + 10][MAX_WEIGHT];
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
+		int M = scanner.nextInt();
+		for(int i = 1; i <= N; i++){
+			weight[i] = scanner.nextInt();
+			value[i] = scanner.nextInt();
+		}
+		Arrays.fill(aMaxValue[0], 0);
+		for(int i = 1; i <= N; i++){
+			for(int j = 0; j <= M; j++){
+				aMaxValue[i][j] = aMaxValue[i-1][j];
+				path[i][j] = 0;
+				if(weight[i] <= j){
+//					aMaxValue[i][j] = Math.max(aMaxValue[i-1][j], aMaxValue[i-1][j-weight[i]] + value[i]);
+					if(aMaxValue[i-1][j-weight[i]] + value[i] > aMaxValue[i-1][j]){
+						aMaxValue[i][j] = aMaxValue[i-1][j-weight[i]] + value[i];
+						path[i][j] = i;
+					}
+				}
+			}
+		}
+		System.out.println(aMaxValue[N][M]); 
+		//计算路径
+		int w = M;
+		int k = N;
+		for(int i = N; i >=1;i--){
+			if(path[i][w] != 0){
+				System.out.print(path[i][w]);
+			}
+			w -= weight[path[i][w]];
+		}
+		/* while(path[k][w]!=0){
+			System.out.print(path[k][w]);
+			k=path[k][w]-1;
+			w -= weight[path[k][w]];
+		}*/
+		 
+	}
+}

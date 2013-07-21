@@ -1,0 +1,21 @@
+package dp;
+
+public class Solution {
+    public int solution(int K, int L, int M, int N, int P, int Q, int R, int S) {
+        // write your code here...
+    	int centre1X = (K + M)/2;
+    	int centre1Y = (L + N)/2;
+    	int centre2X = (P + R)/2;
+    	int centre2Y = (Q + S)/2;
+    	int length1X = M - K;
+    	int length1Y = N - L;
+    	int length2X = R - P;
+    	int length2Y = S - Q;
+    	
+    	if(Math.abs(centre1X-centre2X) < (length1X+length2X)/2 && Math.abs(centre1Y-centre2Y) < (length1Y+length2Y)/2){
+    		return
+    	}
+    	else
+    		return length1X*length1Y + length2X*length2Y;
+    } 
+}

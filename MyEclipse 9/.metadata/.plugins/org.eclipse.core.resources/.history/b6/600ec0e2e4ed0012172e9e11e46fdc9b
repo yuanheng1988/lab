@@ -1,0 +1,16 @@
+package recursion;
+
+public class FullPermutation {
+	static String tmpStr = null;
+	
+	public static void main(){
+		
+	}
+	
+	public static void permutation(String orig){
+		tmpStr = orig;
+		for(int i = 1; i < orig.length(); i++){
+			tmpStr.replaceFirst(orig.charAt(0), replacement)
+		}
+	}
+}

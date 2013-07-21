@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1137" localization="OSGI-INF/l10n/bundle" name="sedr" project="sedr">
+		<library name="sedr.jar"/>
+		<library name="WebRoot/WEB-INF/lib/jstl.jar"/>
+		<library name="WebRoot/WEB-INF/lib/standard.jar"/>
+		<library name="WebRoot/WEB-INF/lib/jsmartcom_zh_CN.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/cos.jar"/>
+		<library name="WebRoot/WEB-INF/lib/cos.jar"/>
+		<library name="WebRoot/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/activation.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/mail.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/mailapi.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/pop3.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/smtp.jar"/>
+		<library name="WebRoot/WEB-INF/lib/activation.jar"/>
+		<library name="WebRoot/WEB-INF/lib/dsn.jar"/>
+		<library name="WebRoot/WEB-INF/lib/imap.jar"/>
+		<library name="WebRoot/WEB-INF/lib/jspsmartupload.jar"/>
+		<library name="WebRoot/WEB-INF/lib/jxl.jar"/>
+		<library name="WebRoot/WEB-INF/lib/mail.jar"/>
+		<library name="WebRoot/WEB-INF/lib/mailapi.jar"/>
+		<library name="WebRoot/WEB-INF/lib/mysql-connector-java-3.1.14-bin.jar"/>
+		<library name="WebRoot/WEB-INF/lib/pop3.jar"/>
+		<library name="WebRoot/WEB-INF/lib/smtp.jar"/>
+		<library name="sedr/WebRoot/WEB-INF/lib/weka.jar"/>
+		<library name="WebRoot/WEB-INF/lib/commons-collections-3.2.jar"/>
+		<library name="WebRoot/WEB-INF/lib/commons-httpclient-3.1.jar.zip"/>
+		<library name="WebRoot/WEB-INF/lib/commons-lang.jar"/>
+		<library name="WebRoot/WEB-INF/lib/commons-logging-1.1.jar"/>
+		<library name="WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+		<library name="WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
+		<library name="WebRoot/WEB-INF/lib/weka.jar"/>
+		<library name="WebRoot/WEB-INF/lib/gson-1.4.jar"/>
+	</bundle>
+</map>

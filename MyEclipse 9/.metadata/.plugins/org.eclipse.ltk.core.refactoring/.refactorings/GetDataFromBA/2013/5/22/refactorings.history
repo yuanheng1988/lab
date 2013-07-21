@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ClientWithResponseHandler.java&apos; to &apos;storage/src/nfs.utils&apos;&#x0D;&#x0A;- Original project: &apos;GetDataFromBA&apos;&#x0D;&#x0A;- Destination element: &apos;storage/src/nfs.utils&apos;&#x0D;&#x0A;- Original element: &apos;available.ClientWithResponseHandler.java&apos;" description="Copy compilation unit" destination="=storage/src&lt;nfs.utils" element1="/src&lt;available{ClientWithResponseHandler.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1369830845848" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/google-gson-2.2.3-release/google-gson-2.2.3/gson-2.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/经验组/OSLC platform/Bugzilla获取数据/java-json.jar/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/MySQL/mysql-connector-java-5.1.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

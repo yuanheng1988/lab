@@ -1,0 +1,24 @@
+#Wed Jun 12 20:54:42 CST 2013
+tomcat6Server.storage.isExploded=true
+tomcat6Server.sedr.isExploded=true
+tomcat6Server.sedr.IEARProjectName=
+tomcat6Server.storage.shouldOverwrite=false
+tomcat6Server.storage.altContextRoot=/storage
+tomcat6Server.storage.shouldBackup=false
+tomcat6Server.sedr.altContextRoot=/sedr
+eclipse.preferences.version=1
+tomcat6Server.sedr.deploymentPath=D\:\\Program Files\\apache-tomcat-6.0.35\\webapps\\sedr
+tomcat6Server.storage.type=WebDeployment
+tomcat6Server.sedr.shouldOverwrite=false
+tomcat6Server.storage.deployIsOverProject=false
+tomcat6Server.sedr.shouldBackup=false
+tomcat6Server.storage.IEARProjectName=
+tomcat6Server.storage.deploymentPath=D\:\\Program Files\\apache-tomcat-6.0.35\\webapps\\storage
+tomcat6Server.storage.contextRoot=/storage
+tomcat6Server.storage.isDeployed=true
+tomcat6Server.sedr.isDeployed=true
+tomcat6Server.storage.isUptoDate=true
+tomcat6Server.sedr.isUptoDate=true
+tomcat6Server.sedr.contextRoot=/sedr
+tomcat6Server.sedr.type=WebDeployment
+tomcat6Server.sedr.deployIsOverProject=false

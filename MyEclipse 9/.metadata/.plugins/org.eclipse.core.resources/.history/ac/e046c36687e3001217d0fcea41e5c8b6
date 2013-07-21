@@ -1,0 +1,52 @@
+package recursion;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class crabstick { 
+	static Integer[] sticks = new Integer[100];
+	static int[] used = new int[100];
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int stickNum = scanner.nextInt();
+		int sum;
+		while(stickNum != 0){
+			sum = 0;
+			for(int i = 0;i < 100; i++){
+				sticks[i] = 0;
+				used[i] = 0;
+			}
+			for(int i=0;i<stickNum;i++){
+				sticks[i] = scanner.nextInt();
+				sum += sticks[i];
+			}
+			Arrays.sort(sticks,Collections.reverseOrder());
+			int len = sticks[0];       //记录最大长度
+			for(int i = len; i < sum; i++){
+				if(sum/len != 0)
+					continue;
+				if(concatenate(stickNum,0,sum/len,i)){
+					System.out.println(i); 
+					break;
+				}
+			}
+			scanner = new Scanner(System.in);
+		}
+	}
+
+	public static boolean concatenate(int totalSticks, int left, int concatNum, int length) {
+		if(left == 0 && concatNum == 0)
+			return true;
+		if(left == 0){
+			left = length;
+			concatNum--;
+		}
+		for(int i = 0; i < totalSticks; i++){
+			if(used[i] )
+		}
+		return false;
+	}
+
+}

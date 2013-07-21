@@ -1,0 +1,23 @@
+package recursion;
+
+import java.util.Scanner;
+
+public class Combination {
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		char[] str = scanner.next().toCharArray();
+		int len = str.length;
+		char[] res = new char[len];
+		for(int i = 1;i < len;i++){
+			putCombination(str, i, 0, res);
+		}
+	}
+
+	private static void putCombination(char[] str, int m, int curNum) {
+		// TODO Auto-generated method stub
+		if(curNum == m)
+			System.out.println(Arrays.t);
+	}
+
+}

@@ -1,0 +1,23 @@
+package dp;
+
+import java.util.Scanner;
+
+public class jury {
+	static final int MAX_NUM = 200;
+	static int[] pScore = new int[MAX_NUM + 10];
+	static int[] nScore = new int[MAX_NUM + 10];
+	static int[] diff = new int[MAX_NUM + 10];
+	static int[] sum = new int[MAX_NUM + 10];
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		int m = scanner.nextInt();
+		while((n + m) != 0){
+			for(int i = 0;i < n; i++){
+				pScore[i] = scanner.nextInt();
+				nScore[i] = scanner.nextInt();
+			}
+		}
+	}
+}

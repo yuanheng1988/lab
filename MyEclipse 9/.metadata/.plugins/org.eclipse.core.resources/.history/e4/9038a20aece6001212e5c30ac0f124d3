@@ -1,0 +1,12 @@
+package dp;
+
+public class MaxComSubSequence {
+	static int MAX_NUM = 200;
+	static int[] aMaxLen = new int[MAX_NUM + 10];
+	static char[] s1 = new char[]
+	
+	public static void main(String[] args){
+		
+	}
+
+}

@@ -1,0 +1,59 @@
+package available;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.BasicResponseHandler;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import com.google.gson.Gson;
+import org.json.*;
+/**
+ * This example demonstrates the use of the {@link ResponseHandler} to simplify
+ * the process of processing the HTTP response and releasing associated resources.
+ */
+public class ClientWithResponseHandler {
+
+    public final static void main(String[] args) throws Exception {
+
+        HttpClient httpclient = new DefaultHttpClient();
+        try {
+//            HttpGet httpget = new HttpGet("http://192.168.2.139:8080/rest/api/2.0.alpha1/issue/NFS-1");
+        	HttpGet httpget = new HttpGet("http://192.168.8.52:8080/OSLC4JBugzilla/services/2/changeRequests/6");
+            //返回网页版
+            // httpget.setHeader("Accept", "text/html");
+            //返回XML格式
+            // httpget.setHeader("Accept", "application/xml");
+            //返回json格式
+             httpget.setHeader("Accept", "application/json");
+            //返回rdf格式
+           // httpget.setHeader("Accept", "application/rdf+xml");
+
+            // Create a response handler
+            ResponseHandler<String> responseHandler = new BasicResponseHandler();
+            String responseBody = httpclient.execute(httpget, responseHandler);
+            System.out.println(responseBody);
+            
+            //解析jira数据
+/*            Gson gson = new Gson();
+            JiraData jd = gson.fromJson(responseBody, JiraData.class);
+            System.out.println("show time~~~");
+            System.out.println(jd.getFields().getDescription().getValue());*/
+            //解析bugzilla数据 
+            /*String str="\"bugz:component\":\"VoiceInterface\",";
+    		System.out.println(BugzillaTransform.Trans(str));*/
+            String trans_responseBody = BugzillaTransform.Trans(responseBody);
+            JSONObject root = new JSONObject(trans_responseBody);
+            String bugz_component = root.getString("bugz_component");
+            System.out.println("show time~~~~");
+            System.out.println(bugz_component);
+
+        } finally {
+            // When HttpClient instance is no longer needed,
+            // shut down the connection manager to ensure
+            // immediate deallocation of all system resources
+            httpclient.getConnectionManager().shutdown();
+        }
+    }
+
+}
+

@@ -1,0 +1,14 @@
+package dp;
+
+import java.util.Scanner;
+
+
+//0/1 knapsack
+public class Knapsack {
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		
+	}
+
+}

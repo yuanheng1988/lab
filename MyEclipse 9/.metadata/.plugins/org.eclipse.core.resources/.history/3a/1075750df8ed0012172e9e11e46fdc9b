@@ -1,0 +1,23 @@
+package recursion;
+
+public class FullPermutation {
+	static String tmpStr = null;
+	
+	public static void main(){
+		
+	}
+	
+	public static void permutation(char[] orig,int begin){
+		
+		for(int i = 1; i < orig.length; i++){
+			myswap()
+		}
+	}
+
+	private static void myswap(char a, char b) {
+		// TODO Auto-generated method stub
+		char tmp = a;
+		a = b;
+		b = a;
+	}
+}

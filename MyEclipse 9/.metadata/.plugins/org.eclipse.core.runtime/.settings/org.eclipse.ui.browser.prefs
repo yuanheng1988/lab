@@ -1,0 +1,4 @@
+#Sat Jun 01 14:00:12 CST 2013
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://192.168.8.52\:8080/OSLC4JBugzilla/services/2/changeRequests/6|*|http\://192.168.12.9\:8080/rest/api/2.0.alpha1/issue/NFS-1|*|

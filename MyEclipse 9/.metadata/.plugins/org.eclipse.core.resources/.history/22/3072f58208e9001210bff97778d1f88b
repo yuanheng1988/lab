@@ -1,0 +1,22 @@
+package dp;
+
+import java.util.Scanner;
+
+
+//0/1 knapsack
+public class Knapsack {
+	static final int MAX_NUM = 3402;
+	static int[] weight = new int[MAX_NUM + 10];
+	statci int[] value = new int[MAX_NUM + 10];
+	
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int N = scanner.nextInt();
+		int M = scanner.nextInt();
+		for(int i = 0; i < N; i++){
+			weight[i] = scanner.nextInt();
+			
+		}
+	}
+
+}
